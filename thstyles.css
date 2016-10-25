@@ -1,0 +1,421 @@
+/* Style for "header" */
+.navi {
+width: 1450px;
+height: 80px;
+background-color: white;
+}
+
+/* Style for "logo" */
+.nav-logo {
+width: 314px;
+height: 48px;
+}
+
+/* Nav Elements */
+.nav-items {
+width: 194px;
+height: 11px;
+color: #222023;
+font-family: Gotham;
+font-size: 15px;
+font-weight: 500;
+line-height: 25px;
+}
+
+/* Magnifying Glass */
+.nav-search {
+width: 16px;
+height: 16px;
+color: #222023;
+font-family: "Font Awesome";
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+}
+
+/* Style for "Get Involved Button" */
+.getinvolved {
+width: 174px;
+height: 44px;
+border: 2px solid #0090c7;
+}
+
+/* Style for "Splash Image Rectangle" */
+.splashimage {
+width: 1450px;
+height: 574px;
+}
+.splashimage-filter {
+width: 1450px;
+height: 574px;
+opacity: 0.5;
+background-color: black;
+}
+
+/* Community Name Header */
+.commname {
+width: 411px;
+height: 43px;
+color: white;
+font-family: Gotham;
+font-size: 48px;
+font-weight: 300;
+line-height: 63px;
+}
+
+/* Share */
+.commname-share {
+width: 411px;
+height: 43px;
+color: white;
+font-family: Gotham;
+font-size: 48px;
+font-weight: 300;
+line-height: 63px;
+}
+
+/* FA Icons */
+.commname-socialicon {
+width: 134px;
+height: 21px;
+color: white;
+font-family: "Font Awesome";
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+}
+
+/* Base text style */
+.commname-textright {
+width: 289px;
+height: 17px;
+color: white;
+font-family: Gotham;
+font-size: 16px;
+font-weight: 300;
+line-height: 22px;
+
+/* Text style for "Tech Hire Communities" */
+.underline {
+color: transparent;
+text-decoration: underline;
+}
+/* Text style for "> Rhode Is" */
+.rhodeisland {
+color: transparent;
+}
+
+/* What We Do Container */
+/* Base text style */
+.wwd {
+width: 196px;
+height: 23px;
+color: transparent;
+line-height: 63px;
+}
+/* Text style for ">" */
+.wwd-caret {
+color: #24bca4;
+font-family: FontAwesome;
+font-size: 20px;
+font-weight: 400;
+}
+/* Text style for "What We Do" */
+.wwd-header {
+color: black;
+font-family: Gotham;
+font-size: 28px;
+font-weight: 500;
+}
+
+/* Rhode Island has assembled 18 ... etc */
+.wwd-text {
+width: 921px;
+height: 198px;
+color: #575157;
+font-family: Gotham;
+font-size: 16px;
+font-weight: 300;
+line-height: 26px;
+}
+
+/* Style for "Carousel Rectangle" */
+.carousel-container {
+width: 1450px;
+height: 604px;
+background-color: #eee;
+}
+
+/* Style for "Stock Image" */
+.carousel-image {
+width: 375px;
+height: 230px;
+}
+
+/* Text style for "John Doe" */
+.carousel-johndoe {
+color: #222023;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+}
+/* Text style for "Lorem ipsu" */
+.carousel-text {
+color: #575157;
+font-size: 16px;
+font-weight: 300;
+line-height: 33px;
+}
+/* Text style for "Learn More" */
+.carousel-learn {
+color: #0090c7;
+font-size: 16px;
+font-weight: 300;
+line-height: 26px;
+}
+
+/* Style for "right arro" */
+.arrow {
+width: 11px;
+height: 18px;
+opacity: 0.5;
+background-color: #575157;
+}
+
+/* Open IT Jobs Container */
+
+/* Text style for ">" */
+.openjobs-arrow {
+color: #24bca4;
+font-family: FontAwesome;
+font-size: 20px;
+font-weight: 400;
+line-height: 63px;
+}
+/* Text style for "Open IT Jo" */
+.openjobs-header {
+color: black;
+font-family: Gotham;
+font-size: 28px;
+font-weight: 500;
+line-height: 63px;
+}
+/* Text style for "Summary of" */
+.openjobs-text {
+color: #575157;
+font-family: Gotham;
+font-size: 16px;
+font-weight: 300;
+line-height: 26px;
+}
+/* Green H Open IT Jobs, Top Skills, etc */
+.openjobs-subheader {
+width: 141px;
+height: 21px;
+color: #24bca4;
+font-family: Gotham;
+font-size: 22px;
+font-weight: 500;
+line-height: 63px;
+}
+/* Green Icons */
+.openjobs-icons {
+width: 35px;
+height: 21px;
+color: #24bca4;
+font-family: "Font Awesome";
+font-size: 32px;
+font-weight: 400;
+line-height: 26px;
+}
+/* Black Subheader */
+.openjobs-subheaderblack {
+width: 195px;
+height: 18px;
+color: #222023;
+font-family: Gotham;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+}
+/* Large Number text */
+.openjobs-largenumber {
+width: 196px;
+height: 66px;
+color: #333;
+font-family: Gotham;
+font-size: 80px;
+font-weight: 300;
+line-height: 63px;
+}
+/* Underneath Graph Text */
+.openjobs-graphtext {
+width: 84px;
+height: 32px;
+color: #222023;
+font-family: Gotham;
+font-size: 15px;
+font-weight: 500;
+line-height: 21px;
+}
+/* Style for "Rectangle left" */
+.openjobs-rect {
+width: 106px;
+height: 191px;
+background-color: #24bca4;
+}
+/* Style for "Rectangle right" */
+.openjobs-rectright {
+width: 106px;
+height: 85px;
+background-color: #eee;
+}
+/* Signup section */
+/* Style for "Signup Splash Rectangle" */
+.signup-rectangle {
+width: 1450px;
+height: 333px;
+background-color: #00445f;
+}
+/* Style for "Rectangle" */
+.signup-button {
+width: 335px;
+height: 44px;
+background-color: #24bca4;
+}
+/* Big Ipsum */
+.signup-bigipsum {
+width: 1020px;
+height: 33px;
+color: white;
+font-family: Gotham;
+font-size: 36px;
+font-weight: 300;
+line-height: 26px;
+}
+/* Sign Up to Hire For Tech Jobs */
+.signup-buttontext {
+width: 270px;
+height: 12px;
+color: white;
+font-family: Gotham;
+font-size: 16px;
+font-weight: 500;
+line-height: 63px;
+text-transform: uppercase;
+}
+
+/* Community Partners Section */
+/* Text style for ">" */
+.compartners-arrow {
+color: #24bca4;
+font-family: FontAwesome;
+font-size: 20px;
+font-weight: 400;
+line-height: 63px;
+}
+/* Text style for "Community" */
+.compartners-head {
+color: black;
+font-family: Gotham;
+font-size: 28px;
+font-weight: 500;
+line-height: 63px;
+}
+/* Text style for "Lorem ipsu" */
+.compartners-text {
+color: #575157;
+font-family: Gotham;
+font-size: 16px;
+font-weight: 300;
+line-height: 26px;
+}
+/* Style for "Search Form" */
+.compartners-search {
+width: 375px;
+height: 44px;
+background-color: white;
+border: 2px solid #eee;
+}
+/* Magnifying Glass */
+.compartners-magnify {
+width: 16px;
+height: 16px;
+color: #0090c7;
+font-family: "Font Awesome";
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+}
+/* Search Caret */
+.compartners-searchcaret {
+width: 15px;
+height: 11px;
+color: #0090c7;
+font-family: "Font Awesome";
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+}
+/* View All */
+.compartners-viewall {
+width: 60px;
+height: 12px;
+color: #0090c7;
+font-family: Gotham;
+font-size: 16px;
+font-weight: 300;
+line-height: 26px;
+}
+/* University of Vermont */
+.compartners-partners {
+width: 210px;
+height: 18px;
+color: #222023;
+font-family: Gotham;
+font-size: 20px;
+font-weight: 500;
+line-height: 19px;
+}
+/* 1,2,3,4,5 */
+/* Text style for "" */
+.pagenav {
+color: #0090c7;
+font-family: FontAwesome;
+font-weight: 400;
+line-height: 30px;
+}
+/* Text style for "1" */
+.pagenav-numbers-selected {
+color: #575157;
+font-family: Gotham;
+font-weight: 700;
+line-height: 25px;
+}
+/* Text style for "2	3	4	5" */
+.pagenav-numbers {
+color: #575157;
+font-family: Gotham;
+font-weight: 300;
+line-height: 25px;
+}
+/* Style for "Big Twitter Img" */
+.twitterbanner {
+width: 1379px;
+height: 153px;
+}
+/* Style for "logo copy" */
+.techhire-logo {
+width: 200px;
+height: 31px;
+}
+/* Footer Stuff */
+.footertext {
+width: 413px;
+height: 46px;
+color: #575157;
+font-family: Gotham;
+font-size: 14px;
+font-weight: 300;
+line-height: 33px;
+}
