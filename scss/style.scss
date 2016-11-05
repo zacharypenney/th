@@ -1,0 +1,348 @@
+/* Base Site Styles */
+body {
+  //   border: 1px solid red;
+  font-family: 'Gotham', sans-serif;
+  background-color: white;
+}
+/* Text Styles */
+h1 {
+  color: black;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+h1.blocktext {
+    color: white;
+    font-size: 36px;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63.750em;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+h2 {
+  width: 195px;
+  height: 18px;
+  color: #222023;
+  font-size: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+h2 span {
+  color: white;
+  font-weight: 100;
+  /* vertical | horizontal */
+  padding-left: 7%;
+}
+
+h3 {
+  width: 141px;
+  height: 21px;
+  color: #24bca4;
+  font-size: 22px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  white-space: nowrap;
+}
+
+h4 {
+  width: 411px;
+  height: 43px;
+  color: white;
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 63px;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}
+
+h4 span {
+  color: white;
+  font-weight: 100;
+  /* vertical | horizontal */
+  padding-left: 7%;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  /* for IE 6 */
+}
+
+h5 {
+  width: 196px;
+  height: 66px;
+  color: #333;
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 63px;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Book.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Light.otf');
+  font-weight: 300;
+}
+
+.container-full {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    .logo {
+        float: left;
+        height: 80px;
+        svg {
+            padding: 16px 25px;
+            width: 364px;
+        }
+    }
+    ul {
+        float: right;
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline-block;
+            a {
+                display: inline-block;
+                padding: 33px 15px;
+                color: #222023;
+                font-family: 'Gotham';
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 14px;
+                &:hover {
+                    text-decoration: none;
+                }
+                i {
+                    height: 14px;
+                }
+            }
+        }
+        .get-involved {
+            margin: 18px 20px 18px 15px;
+            button {
+                a {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
+.cta {
+    background-image: url(../img/group-1.png);
+    padding: 80px 0;
+}
+
+.hero {
+    padding: 0;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../img/perth-city-1537547.png);
+}
+
+.carousel-control {
+    background: none!important;
+}
+
+.navelements {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+}
+
+.carousel-container {
+  width: 100%;
+  height: 600px;
+  padding-top: 5%;
+}
+
+.carousel-chevron {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.data-content {
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: middle;
+  padding-bottom: 10%;
+}
+
+.img-container {
+    background-color: #000000;
+}
+.img-container img {
+    opacity: 0.5;
+}
+
+.jumbo-container {
+    background-image: url("img/group-1.png");
+}
+
+.btn-involved {
+    border: 2px solid #0090c7;
+    background: none;
+    box-shadow: none;
+    height: 44px;
+    width: 174px;
+}
+
+.btn-involved-text {
+width: 112px;
+height: 11px;
+color: #0090c7;
+font-size: 15px;
+font-weight: 500;
+line-height: 25px;
+}
+
+.btn-signup {
+width: 335px;
+height: 44px;
+background-color: #24bca4;
+}
+
+.btn-signup-text {
+width: 270px;
+height: 12px;
+color: white;
+font-size: 16px;
+font-weight: 500;
+line-height: 4em;
+text-transform: uppercase;
+}
+
+.centered  {
+    text-align:center;
+}
+
+form {
+  width: 500px;
+  margin: 50px auto;
+}
+
+#custom-search-form {
+  margin: 5px 0 0;
+  padding: 0;
+}
+
+#custom-search-form .search-query {
+  padding-right: 3px;
+  padding-right: 4px \9;
+  padding-left: 3px;
+  padding-left: 4px \9;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#custom-search-form button {
+  border: 0;
+  background: none;
+  /** belows styles are working good */
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  left: -28px;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.search-query:focus + button {
+  z-index: 3;
+}
+/* Flex Rectangle */
+.flex-rectangle {
+  width: 100%;
+  height: auto;
+  background: white;
+}
+
+.flex-rectangle:before {
+  content: "";
+  display: block;
+  padding-top: 25%;
+}
+
+.flex-rectangle-carousel {
+  width: 100%;
+  background: #eee;
+}
+
+.flex-rectangle-carousel:before {
+  content: "";
+  display: block;
+  padding-top: 25%;
+}
+/* Carousel */
+.multi-item-carousel {
+  .carousel-inner {
+    > .item {
+      transition: 500ms ease-in-out left;
+    }
+
+    .active {
+      &.left {
+        left: -33%;
+      }
+
+      &.right {
+        left: 33%;
+      }
+    }
+
+    .next {
+      left: 33%;
+    }
+
+    .prev {
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item {
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+
+  .carouse-control {
+    &.left,
+    &.right {
+      background-image: none;
+    }
+  }
+}
+// non-related styling:
